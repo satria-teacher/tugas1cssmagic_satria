@@ -1,0 +1,26 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+a{
+    color:#000 !important;
+}
+  .bg-utama{
+    background-color: #f6ebda;
+    height: 320px;
+}
+.logo{
+    height: 50px;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color:#ff902a !important;
+}
+.nav-link.active{
+    color:#ff902a !important;
+}
