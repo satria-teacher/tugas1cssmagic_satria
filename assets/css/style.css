@@ -2,14 +2,31 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    letter-spacing:2px;
   }
+
+  .bg-utama{background-color: #f6ebda; }
+  .bg-kedua{background-color: #ff902a; }
+  .bg-ketiga{background-color: #2f2105; color: #fff;}
+  .bg-keempat{background-color: #f9d9aa;}
+  .tc-utama{color:#ff902a !important;}
+  .tc-kedua{color: #2f2105;}
+
 a{
     color:#000 !important;
 }
-  .bg-utama{
+  #bag-hero{
     background-color: #f6ebda;
-    height: 320px;
+    background-image: url('../Images/bg-hero.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* height: 320px; */
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    padding-bottom: 200px;
 }
+
 .logo{
     height: 50px;
 }
@@ -24,3 +41,40 @@ a{
 .nav-link.active{
     color:#ff902a !important;
 }
+
+.keranjang{
+    background-image: url('../Icons/dark-cart.svg');
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 27px;
+}
+.btn-order{
+    fo
+}
+.rounded-5{
+    border-radius: 50px;
+}
+.rounded-2{
+    border-radius: 20px !important;
+}
+
+#bag-popular{
+    height: 400px;
+    margin-top: -80px;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
+.rate {
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 3px 5px;
+    width: 80px;
+    background-color: white !important;
+    color: black;
+    font-size: 14px;
+    border: solid rgba(173, 173, 173, 0.427) 3px;
+  }
+  .checked {
+    color: #ff902a;
+  }
+  
